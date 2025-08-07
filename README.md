@@ -13,9 +13,14 @@ This repository contains the source code for a classic Black Jack card game buil
 To set up and run the project, you need Python 3.8 or higher installed and install the required library using pip: **pip install pygame**
 
 ## How to Use 🚀
-1. Clone the Repository
-   **git clone [(https://github.com/rmall2003/BlackJack_Game.git)]**
-2. Change the directory: **cd BlackJack_Game**
+1.  Clone the repository
+    ```sh
+    git clone [https://github.com/rmall2003/BlackJack_Game.git](https://github.com/rmall2003/BlackJack_Game.git)
+    ```
+2.  Navigate to the project directory
+    ```sh
+    cd BlackJack_Game
+    ```
 3. **Install Dependencies:** Make sure you have installed the required library from the requirements.txt file as described above.
 4. **Run the Game:** Start the game by running the blackjack.py script: python blackjack.py
 5. **Play the Game:** Use the main menu to select either single-player or multiplayer mode.

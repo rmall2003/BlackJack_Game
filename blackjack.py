@@ -16,7 +16,8 @@ GREEN = (34, 139, 34)
 RED = (255, 0, 0)
 BUTTON_COLOR = (70, 130, 180)
 FONT = pygame.font.Font(None, 20)
-# CHANGE: Added a medium font and reduced the large font size for better scaling.
+
+# Added a medium font and reduced the large font size for better scaling.
 FONT_MEDIUM = pygame.font.Font(None, 28)
 FONT_LARGE = pygame.font.Font(None, 32)
 CARD_WIDTH, CARD_HEIGHT = 100, 140
@@ -209,7 +210,7 @@ def draw_table(players, current_player_idx, scroll_offset, dealer_is_playing, mo
         is_active_dealer = (player.is_dealer and dealer_is_playing)
 
         color = HIGHLIGHT_COLOR if is_current_player or is_active_dealer else WHITE
-        # CHANGE: Use FONT_MEDIUM for the highlighted player's text
+        # Use FONT_MEDIUM for the highlighted player's text
         font = FONT_MEDIUM if is_current_player or is_active_dealer else FONT
         blackjack_text = " - Black Jack!!" if player.blackjack else ""
         
@@ -227,7 +228,7 @@ def draw_table(players, current_player_idx, scroll_offset, dealer_is_playing, mo
         screen.blit(text, text_rect)
         
         x_card_offset = 50
-        # CHANGE: Adjusted card y_offset to account for the new medium font size
+        # Adjusted card y_offset to account for the new medium font size
         y_card_offset = y_offset + (35 if is_current_player or is_active_dealer else 30)
 
         # Logic to show player history on hover
@@ -249,7 +250,7 @@ def draw_table(players, current_player_idx, scroll_offset, dealer_is_playing, mo
                 box_height = len(rendered_lines) * 20 + 10
                 box_width = max_width + 10
                 
-                # CHANGE: Position the tooltip box ABOVE the player's name text
+                # Position the tooltip box ABOVE the player's name text
                 tooltip_x = text_rect.left
                 tooltip_y = text_rect.top - box_height - 5  # 5 pixels of space
                 
@@ -449,7 +450,7 @@ def main_game_loop(multiplayer=False, usernames=None):
         
         y_res_offset = 100
         for name, result in results:
-            # CHANGE: Use FONT_MEDIUM for the results screen for consistency
+            # Use FONT_MEDIUM for the results screen for consistency
             text = FONT_MEDIUM.render(f"{name}: {result}", True, WHITE)
             screen.blit(text, (WIDTH // 2 - text.get_width() // 2, y_res_offset))
             y_res_offset += 50

@@ -2,15 +2,18 @@
 This repository contains the source code for a classic Black Jack card game built with Python and Pygame. The game offers an interactive graphical interface where players can compete against the dealer, with support for both single-player and multiplayer modes.
 
 ## Features ✨
-**Single & Multiplayer Modes:** Play alone against the dealer or with up to 6 friends.
-**Player Profiles:** Usernames and game data, including balance and match history, are saved and loaded automatically.
-**Interactive Gameplay:** A clean UI with buttons to "Hit" or "Stop," making the game easy to play.
-**Engaging Animations:** Smooth animations for dealing cards from the deck to the players.
-**Player History:** Simply hover over a player's name to see a summary of their recent games.
-**Classic Black Jack Rules:** The game follows standard Black Jack rules, including "Bust," "Push," and "Black Jack" scenarios.
+1. **Single & Multiplayer Modes:** Play alone against the dealer or with up to 6 friends.
+2. **Player Profiles:** Usernames and game data, including balance and match history, are saved and loaded automatically.
+3. **Interactive Gameplay:** A clean UI with buttons to "Hit" or "Stop," making the game easy to play.
+4. **Engaging Animations:** Smooth animations for dealing cards from the deck to the players.
+5. **Player History:** Simply hover over a player's name to see a summary of their recent games.
+6. **Classic Black Jack Rules:** The game follows standard Black Jack rules, including "Bust," "Push," and "Black Jack" scenarios.
 
 ## Requirements 📋
-To set up and run the project, you need Python 3.8 or higher installed and install the required library using pip: **pip install pygame**
+To set up and run the project, you need Python 3.8 or higher installed and install the required library using pip.
+``` sh
+pip install pygame
+```
 
 ## How to Use 🚀
 1.  Clone the repository
@@ -31,9 +34,9 @@ To set up and run the project, you need Python 3.8 or higher installed and insta
 7. Place your bet and enjoy the game!
 
 ## Technologies Used 💻
-1. Game Engine: Pygame
-2. Backend: Python
-3. Data Storage: JSON
+1. Python
+2. Pygame (Module in Python)
+3. JSON
 
 ## Snapshots
 1. **Main Menu:** User selects game mode

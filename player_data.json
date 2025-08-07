@@ -1,0 +1,17 @@
+{
+    "rashi": {
+        "balance": 20433,
+        "history": [
+            {
+                "bet": 233,
+                "result": "Won 233",
+                "balance": 20233
+            },
+            {
+                "bet": 200,
+                "result": "Won 200",
+                "balance": 20433
+            }
+        ]
+    }
+}

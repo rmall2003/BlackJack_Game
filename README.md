@@ -9,6 +9,11 @@ This repository contains the source code for a classic Black Jack card game buil
 5. **Player History:** Simply hover over a player's name to see a summary of their recent games.
 6. **Classic Black Jack Rules:** The game follows standard Black Jack rules, including "Bust," "Push," and "Black Jack" scenarios.
 
+## Technologies Used 💻
+1. Python
+2. Pygame (Module in Python)
+3. JSON
+   
 ## Requirements 📋
 To set up and run the project, you need Python 3.8 or higher installed and install the required library using pip.
 ``` sh
@@ -33,10 +38,6 @@ pip install pygame
 6. Enter a username to create a new profile or load an existing one.
 7. Place your bet and enjoy the game!
 
-## Technologies Used 💻
-1. Python
-2. Pygame (Module in Python)
-3. JSON
 
 ## Snapshots
 1. **Main Menu:** User selects game mode

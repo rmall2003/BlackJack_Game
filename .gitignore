@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Pytest
+.pytest_cache/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs and local databases
+*.log
+*.sqlite3
+
+# Python env files
+.env
+.env.*.local
+
+# Bytecode / cache
+*.cache
+*.mypy_cache/
+
+# Pygame / assets (usually you WANT assets tracked, so this is commented out)
+# If you want to ignore all assets, uncomment the next line:
+# assets/
+
+# Player data / user-specific saved data (DO NOT commit real user balances/history)
+player_data.json
+
+# Generated files from editors or tools
+*.swp
+*~ 
+*.bak
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Packaging
+pip-wheel-metadata/
+wheelhouse/
+
+# Optional: ignore built executables (PyInstaller artifacts)
+dist/
+build/
+*.spec

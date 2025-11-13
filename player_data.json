@@ -1,6 +1,6 @@
 {
     "rashi": {
-        "balance": 20015,
+        "balance": 21715,
         "history": [
             {
                 "bet": 233,
@@ -31,6 +31,26 @@
                 "bet": 200,
                 "result": "Bust! Lost 200",
                 "balance": 20015
+            },
+            {
+                "bet": 200,
+                "result": "Won 200",
+                "balance": 20215
+            },
+            {
+                "bet": 300,
+                "result": "Bust! Lost 300",
+                "balance": 19915
+            },
+            {
+                "bet": 2000,
+                "result": "Won 2000",
+                "balance": 21915
+            },
+            {
+                "bet": 200,
+                "result": "Bust! Lost 200",
+                "balance": 21715
             }
         ]
     },
